@@ -4,9 +4,14 @@
 	box-sizing: border-box;
 }
 
+.best-face {
+	float: left;
+}
+
 .halo-images {
 	width: 300px;
 }
+
 body {
 	background: linear-gradient(180deg, #000055, #333399);
 	color: white;
