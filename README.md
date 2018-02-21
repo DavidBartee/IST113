@@ -1,2 +1,2 @@
 # IST113
-David                  Bartee
+David's IST113 Repository
