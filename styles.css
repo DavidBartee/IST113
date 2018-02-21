@@ -66,6 +66,10 @@ h1, h2, header {
 	width: 400px;
 }
 
+h4 {
+	font-style: normal;
+}
+
 ul, ol, li {
 	margin: 8px auto;
 }
