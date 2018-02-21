@@ -6,6 +6,8 @@
 
 .best-face {
 	float: left;
+	width: 250px;
+	height: 250px;
 }
 
 .halo-images {
