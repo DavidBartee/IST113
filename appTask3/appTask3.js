@@ -11,6 +11,8 @@ function setupLocal() {
     }
     else {
         createItem("List One Item");
+        myItems.push("List One Item");
+        saveItems();
     }
 
     $("#newtaskbutton").on("click", function() {
