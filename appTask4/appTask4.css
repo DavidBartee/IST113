@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(177, 225, 253);
+}
+
+body {
+    background-color: black;
+}
+
+button {
+    background-color: #444499;
+    padding: 1px;
+}
+
+.input-panel {
+    background-color: #9393cf;
+    margin: 0 auto;
+    padding: 0 0 10px 0;
+    width: 500px;
+}
+
+.task-list-div {
+    background-color: #6969a0;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.input-panel p {
+    padding: 10px 10px;
+}
+
+.input-panel .tiny {
+    font-size: 0.1em;
+    padding: 0;
+}
+
+#task-ul li {
+    list-style: none;
+    border: 1px solid black;
+    background-color: #9393c5;
+    padding: 1px;
+}
+
+#task-ul li button {
+    float: right;
+}
+
+#contact-div input, #contact-div textarea {
+    color: black;
+}
