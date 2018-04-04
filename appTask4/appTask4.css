@@ -49,3 +49,13 @@ button {
 #contact-div input, #contact-div textarea {
     color: black;
 }
+
+#contact-button, #contact-div {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#contact-button {
+    display: block;
+    width: 100px;
+}
