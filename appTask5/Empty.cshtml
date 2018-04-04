@@ -1,0 +1,39 @@
+﻿@{
+    string title = "This is the title";
+    int answer = 0;
+
+    // Razor can detect if this request has POST data
+    if (IsPost)
+    {
+        // We'll pull the data as a string from Razor's Request array
+        string numberOneString = Request["numberOneName"];
+        string numberTwoString = Request["numberTwoName"];
+
+        // lets try to
+        int numberOne = numberOneString.AsInt();
+        int numberTwo = numberTwoString.AsInt();
+
+        answer = numberOne + numberTwo;
+    }
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@title</title>
+</head>
+<body>
+    <form method="post" action="">
+        <label for="numberOneId">Number One: </label>
+        <input type="number" name="numberOneName" id="numberOneId" value="0" />
+        <br />
+        <label for="numberTwoId">Number Two: </label>
+        <input type="number" name="numberTwoName" it="numberTwoId" value="0" />
+        <br />
+        <input type="submit" value="Add" />
+        <br />
+        <label for="answerId">Answer: </label>
+        <input type="number" name="answerName" id="answerId" value="@answer" readonly />
+    </form>
+</body>
+</html>

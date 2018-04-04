@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>appTask4</title>
+        <link href='apptask4.css' rel='Stylesheet'/>
+    </head>
+    <body>
+        <div class='input-panel'>
+            <h1>Task Manager 4</h1>
+            <!--<p class='tiny'>Still with JQuery</p>-->
+            <p>Enter a task description here:</p>
+            <input type='text' id='task-input'/>
+            <button id='newtaskbutton'>Add Task</button>
+        </div>
+        <div class='task-list-div'>
+            <p>Tasks:</p>
+            <ul id='task-ul'>
+
+            </ul>
+        </div>
+        <a id='contact-button'>Contact</a> <br/>
+        <div id='contact-div'>
+            <form action='' method='post' id='contact-form'>
+                <label for='email'>E-mail</label>
+                <input name='email' type='email' placeholder='joe@example.com'/>
+                <label for='name'>Name</label>
+                <input name='name' type='text'/>
+                <label for='message'>Message</label>
+                <textarea name='message'></textarea>
+                <button>Submit</button>
+            </form>
+        </div>
+        <script src='jquery.js'></script>
+        <script src='appTask4.js'></script>
+    </body>
+</html>
